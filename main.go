@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // import "fmt"
 
 // func changeString(text *string) {
@@ -7,9 +9,9 @@ package main
 // }
 
 func main() {
-	// var card string = "Aces of Spades"
-	// card := "Aces of Spades"
-	// changeString(&card)
-	// fmt.Println(&card)
+	var card string = "Aces of Spades"
+	card := "Aces of Spades"
+	changeString(&card)
+	fmt.Println(&card)
 	test()
 }
