@@ -24,3 +24,7 @@ func (d deck) print() {
 	}
 
 }
+
+func (d deck) deal(handsize int) (d1 deck, d2 deck) {
+
+}
